@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('assets/bg.png') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  padding: 20px 40px;
+  background-color: #0a0a0a;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.navbar-logo {
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/* Hero / Question Section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+  padding: 20px;
+}
+
+.question-box {
+  background-color: #161517;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  color: white;
+}
+
+.question-text h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.question-text p {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* Likert scale */
+.likert-scale {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10vh;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+  margin: 20px 0;
+}
+
+/* Radio buttons styling */
+.radio-input {
+    appearance: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: transparent;
+}
+
+.radio-input:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Specific radio button styles */
+.radio-input.large-left {
+    width: 100px;
+    height: 100px;
+    background-color: #610DD9;
+}
+
+.radio-input.medium-left {
+    width: 80px;
+    height: 80px;
+    background-color: #8133F1;
+}
+
+.radio-input.small-left {
+    width: 60px;
+    height: 60px;
+    background-color: #AC73FF;
+}
+
+.radio-input.neutral {
+    width: 50px;
+    height: 50px;
+    background-color: #DAC0FF;
+}
+
+.radio-input.small-right {
+    width: 60px;
+    height: 60px;
+    background-color: #7391FF;
+}
+
+.radio-input.medium-right {
+    width: 80px;
+    height: 80px;
+    background-color: #2741D8;
+}
+
+.radio-input.large-right {
+    width: 100px;
+    height: 100px;
+    background-color: #0A25BE;
+}
+.labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #e5e5e5;
+}
