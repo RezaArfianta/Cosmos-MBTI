@@ -1,0 +1,88 @@
+{
+    "ENTJ":[
+        "Matahari",
+        "",
+        "Sebagai pusat tata surya, Matahari memberikan energi, cahaya, dan keteraturan. ENTJ adalah pemimpin alami yang menjadi pusat sistem, mengarahkan dan memberdayakan orang lain untuk mencapai tujuan bersama. Kehadiran mereka kuat, hangat, dan menjadi sumber kekuatan bagi sekitarnya."
+    ],
+    "INTJ":[
+        "Black Hole",
+        "",
+        "Seperti lubang hitam, INTJ memiliki daya tarik gravitasi yang luar biasa dalam hal ide dan strategi. Mereka adalah pemikir yang dalam, misterius, dan memiliki pengaruh besar dari balik layar. Rencana mereka kompleks dan sering kali tak terlihat oleh orang lain sampai semuanya tertarik ke dalam visi mereka."
+    ],
+    "ENTP":[
+        "Komet",
+        "",
+        "Komet adalah pengelana kosmik yang melesat melintasi tata surya, membawa elemen baru dan mengguncang keadaan. ENTP penuh dengan energi, ide-ide tak terduga, dan suka menantang status quo. Mereka datang dengan cepat, meninggalkan jejak pemikiran yang cemerlang dan menginspirasi, lalu bergerak ke tantangan baru."
+    ],
+    "INFJ":[
+        "Bulan",
+        "",
+        "Bulan tidak menghasilkan cahayanya sendiri, tetapi memantulkan cahaya matahari untuk menerangi kegelapan. INFJ memiliki pemahaman mendalam tentang sifat manusia dan membimbing orang lain dengan intuisi mereka yang tenang. Mereka memiliki sisi misterius (seperti sisi gelap bulan) dan pengaruhnya kuat namun lembut, seperti pasang surut air laut."
+    ],
+    "ESTJ": [
+        "Mars",
+        "",
+        "Mars(Planet Merah) diasosiasikan dengan energi, aksi, dan ketegasan. ESTJ adalah organisator yang efisien dan pengambil keputusan yang tegas. Mereka tidak ragu untuk memimpin dan mendorong maju, memastikan semua rencana dieksekusi dengan baik dan teratur untuk mencapai hasil nyata."
+    ],
+    "ISTJ": [
+        "Saturnus",
+        "",
+        "Dikenal dengan cincinnya yang ikonik, Saturnus adalah simbol struktur, disiplin, dan keteraturan. ISTJ adalah individu yang dapat diandalkan, metodis, dan menghargai sistem yang terbukti. Cincin Saturnus melambangkan batasan dan tanggung jawab yang mereka pegang teguh untuk menjaga segalanya tetap stabil."
+    ],
+    "ESFJ": [
+        "Venus",
+        "",
+        "Venus adalah planet yang sejak lama dikaitkan dengan keindahan, harmoni, dan hubungan sosial. ESFJ adalah perekat sosial yang unggul dalam menciptakan keharmonisan dan merawat komunitas. Mereka menikmati kebersamaan dan memastikan semua orang di orbit mereka merasa dihargai dan terhubung."
+    ],
+    "ISFJ": [
+        "Bumi",
+        "",
+        "Bumi adalah planet yang menopang kehidupan, memberikan fondasi yang subur dan aman. ISFJ adalah pelindung yang hangat, setia, dan berdedikasi. Mereka adalah rumah bagi orang-orang yang mereka sayangi, memberikan dukungan praktis dan emosional tanpa pamrih agar semua orang dapat tumbuh dan berkembang."
+    ],
+    "ENFP": [
+        "Aurora",
+        "",
+        "Aurora adalah fenomena cahaya yang menari-nari indah di langit, tercipta dari interaksi partikel matahari dengan atmosfer bumi. ENFP adalah pribadi yang antusias, penuh warna, dan mampu menghubungkan berbagai ide dan orang. Energi mereka yang menular menciptakan koneksi yang magis dan menginspirasi semua orang di sekitar mereka."
+    ],
+    "INFP": [
+        "Nebula",
+        "",
+        "Nebula adalah pembibitan bintang—awan gas dan debu kosmik raksasa tempat bintang-bintang baru lahir. INFP adalah gudang kreativitas, idealisme, dan potensi tak terbatas. Dari dalam dunia batin mereka yang penuh warna dan imajinasi, lahirlah ide-ide dan nilai-nilai yang indah dan murni."
+    ],
+
+    "ISTP": [
+        "Merkurius",
+        "",
+        "Merkurius adalah planet terkecil dan tercepat yang mengorbit Matahari. Ini melambangkan kemampuan ISTP untuk berpikir dan bertindak cepat, beradaptasi dengan lingkungan sekitar mereka. Mereka adalah ahli dalam memahami cara kerja sistem (baik mekanik maupun logis) dan menggunakannya dengan terampil."
+    ],
+
+    "ESTP": [
+        "Supernova",
+        "",
+        "Supernova adalah ledakan bintang yang sangat dahsyat, melepaskan energi luar biasa yang dapat menerangi seluruh galaksi. ESTP adalah individu yang berani, energik, dan berdampak besar. Mereka terjun ke dalam situasi dengan kekuatan penuh, mengambil risiko, dan menciptakan perubahan dramatis di sekitar mereka."
+    ],
+    "ENFJ": [
+        "Jupiter",
+        "",
+        "Jupiter adalah planet terbesar yang dikenal sebagai raksasa gas pelindung karena gravitasinya yang besar melindungi planet lain dari asteroid. ENFJ adalah sosok karismatik yang menginspirasi dan menyatukan orang. Mereka memiliki pengaruh yang luas dan sering bertindak sebagai pelindung dan mentor bagi komunitasnya."
+    ],
+
+    "INTP": [
+        "Pulsar",
+        "",
+        "Pulsar adalah sisa bintang yang sangat padat dan berputar cepat, memancarkan gelombang radio dengan keteraturan yang presisi. Ini melambangkan INTP, yang otaknya penuh dengan informasi padat dan memancarkan pulsa pemikiran logis dan teori yang brilian secara konsisten. Mereka adalah sumber pengetahuan yang terkonsentrasi dan akurat."
+    ],
+
+    "ESFP": [
+        "Sirius",
+        "",
+        "Sirius adalah bintang paling terang di langit malam, menarik perhatian semua orang yang memandangnya. ESFP adalah pusat perhatian alami, sosok yang ceria, dan menghibur. Mereka bersinar terang di lingkungan sosial, membawa kegembiraan dan semangat ke mana pun mereka pergi, membuat dunia terasa lebih hidup."
+    ],
+
+    "ISFP": [
+        "Meteor",
+        "",
+        "Meteor adalah momen keindahan yang spontan dan memesona, sebuah kilatan cahaya di langit malam. ISFP adalah seniman kehidupan yang hidup di saat ini, mengejar pengalaman baru dan keindahan. Mereka menciptakan momen-momen tak terlupakan yang menginspirasi orang lain dengan pesona mereka yang unik dan artistik."
+    ]
+
+}

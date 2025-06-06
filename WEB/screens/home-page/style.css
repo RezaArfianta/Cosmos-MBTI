@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+/*
 body {
     height: 100vh;
     margin: 0;
@@ -15,35 +16,46 @@ body {
     justify-content: center;
     align-items: center;
 }
+*/
+
+body {
+    background: url('assets/bg.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .hero {
-  height: 100vh;
-  background: url('e288ec8a-0bb6-4683-8cfa-8da3951788e6.png') no-repeat center center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  /* align-items: center;    */
-  text-align: center;
+    height: 100vh;
+    background: url('e288ec8a-0bb6-4683-8cfa-8da3951788e6.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* align-items: center;    */
+    text-align: center;
 }
 
 .hero-text h2 {
-  color: white;
-  font-weight: 400;
-  font-size: 1.8rem;
-  /* margin-bottom: 0.5rem; */
-  text-align: center;
-  margin: 0;
-  line-height: 1;
+    color: white;
+    font-weight: 400;
+    font-size: 1.8rem;
+    /* margin-bottom: 0.5rem; */
+    text-align: center;
+    margin: 0;
+    line-height: 1;
 }
 
 .hero-text h1 {
-  color: white;
-  font-weight: bolder;
-  font-size: 7rem;
-  letter-spacing: 2px;
-  text-align: center;
-  margin: 0;
-  line-height: 1;
+    color: white;
+    font-weight: bolder;
+    font-size: 7rem;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
 }
 
 .container {
@@ -53,12 +65,14 @@ body {
     flex-direction: column;
     gap: 5vh; */
     /* padding-top: 80px; */
-    padding-top: 20px; 
-            padding-left: 40px;
-            padding-right: 40px;
-            text-align: center; /* Center aligning content in the container */
-            position: relative;
-            z-index: 1;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    /* Center aligning content in the container */
+    position: relative;
+    z-index: 1;
+
 }
 
 .header {
@@ -191,21 +205,26 @@ body {
 
 .scroll-down {
 
-    position: fixed;           /* Tetap di tempat saat scroll */
-  bottom: 40px;              /* Jarak dari bawah layar */
-  left: 50%;                 /* Pusat horizontal */
-  transform: translateX(-50%); /* Geser ke kiri setengah lebar tombol agar tepat di tengah */
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: #8e44ec; /* ungu cerah */
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: background 0.3s, transform 0.2s;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    /* Tetap di tempat saat scroll */
+    bottom: 40px;
+    /* Jarak dari bawah layar */
+    left: 50%;
+    /* Pusat horizontal */
+    transform: translateX(-50%);
+    /* Geser ke kiri setengah lebar tombol agar tepat di tengah */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #8e44ec;
+    /* ungu cerah */
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* .scroll-down:hover {
@@ -214,33 +233,34 @@ body {
 } */
 
 .arrow {
-  color: white;
-  font-size: 28px;
-  font-weight: bold;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 /* Navbar */
 .navbar {
-  width: 100%;
-  padding: 20px 40px;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  position: fixed;
-  top: 0;
-z-index: 1000;        /* Ensures the navbar stays on top of all other content */
+    width: 100%;
+    padding: 20px 40px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    /* Ensures the navbar stays on top of all other content */
 
 }
 
 .logo {
-  height: 30px;
+    height: 30px;
 }
 
 .navbar-logo {
-  color: white;
-  font-weight: 400;
-  font-size: 1.2rem;
-  padding-left: 15px;
-  padding-right: 15px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
 }

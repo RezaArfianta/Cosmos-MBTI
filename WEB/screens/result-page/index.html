@@ -1,23 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cosmos MBTI</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COSMOS MBTI</title>
+  <link rel="stylesheet" href="result.css" />
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h2>Uji Coba API Project PASD</h2>
-            <h1 id="jawaban"></h1>
-        </div>
-        <div id="explanation-box">
-            <div id="penjelasan-llm">
-            </div>
-            <div id="image-box"></div>
-        </div>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-content">
+      <img src="assets/LogoCosmos.png" alt="Logo" class="logo" />
+      <span class="navbar-title">COSMOS AS MBTI</span>
     </div>
-    <script src="script.js"></script>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="content">
+      <p>Your personality type is :</p>
+      <h1 id="mbti-cosmos"></h1>
+      <h2 id="mbti-og"></h2>
+      <div class="quote-box">
+        <!-- <p class="quote">“Your time is limited, so don’t waste it living someone else’s life.”</p>
+        <p class="author">– Steve Jobs</p> -->
+        <p id="cosmos-desc" class="description"></p>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Scrollable Content -->
+  <!-- <section class="details">
+    <div class="trait">
+      <div class="number">1</div>
+      <h3>Personality Traits</h3>
+      <p>
+        Your direct communication style is both a strength and a challenge...
+      </p>
+    </div>
+    <div class="trait">
+      <div class="number">2</div>
+      <h3>Your Career Path</h3>
+      <p>
+        Your career is more than just a job – it’s a platform for you to exercise your leadership...
+      </p>
+    </div>
+  </section> -->
+  <script src="script.js"></script>
 </body>
 </html>
