@@ -11,7 +11,7 @@ Anggota:
 
 DS-47-03
 
-## Memulai
+## Instruksi untuk run Cosmos MBTI
 Instruksi ini akan membantu Anda menyiapkan salinan proyek dan menjalankannya di mesin lokal Anda untuk tujuan pengembangan dan pengujian.
 
 ### Prasyarat
@@ -24,8 +24,8 @@ Pastikan Anda telah menginstal Python di sistem Anda. Proyek ini memerlukan bebe
 ### Instalasi
 1.  **Clone repositori ini**
     ```bash
-    git clone [https://github.com/username-anda/nama-repositori-anda.git](https://github.com/username-anda/nama-repositori-anda.git)
-    cd nama-repositori-anda
+    git clone https://github.com/RezaArfianta/Cosmos-MBTI.git
+    cd Cosmos-MBTI
     ```
 2.  **Instal pustaka yang dibutuhkan**
     Sangat disarankan untuk menggunakan *virtual environment*. Anda dapat menginstal semua dependensi sekaligus dengan membuat file `requirements.txt` dan menjalankan perintah berikut:
@@ -42,7 +42,6 @@ Untuk meluncurkan aplikasi, Anda perlu menjalankan server API dan server web sec
     ```bash
     python app.py
     ```
-    Server akan mulai berjalan, biasanya pada alamat `http://127.0.0.1:5000/`.
 
 2.  **Jalankan Server Web**
     Buka **jendela terminal baru**, lalu jalankan aplikasi server web:
