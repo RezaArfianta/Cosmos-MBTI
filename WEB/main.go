@@ -8,11 +8,14 @@ import (
 	"github.com/julienschmidt/httprouter"
 )
 
-//go:embed templates/home-page
+//go:embed screens/home-page
 var home_page embed.FS
 
-//go:embed templates/result-page
+//go:embed screens/result-page
 var result_page embed.FS
+
+//go:embed screens/question-page
+var question_page embed.FS
 
 func main(){
 	router := httprouter.New()
@@ -21,10 +24,13 @@ func main(){
 		http.Redirect(w,r,"/home",http.StatusSeeOther)
 	})
 
-	directory,_ := fs.Sub(home_page,"templates/home-page")
+	directory,_ := fs.Sub(home_page,"screens/home-page")
 	router.ServeFiles("/home/*filepath",http.FS(directory))
 
-	directory,_ = fs.Sub(result_page,"templates/result-page")
+	directory,_ = fs.Sub(question_page,"screens/question-page")
+	router.ServeFiles("/question/*filepath",http.FS(directory))
+
+	directory,_ = fs.Sub(result_page,"screens/result-page")
 	router.ServeFiles("/result/*filepath",http.FS(directory))
 	
 
