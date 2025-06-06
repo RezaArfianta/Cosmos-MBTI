@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: url('assets/bg.png') no-repeat center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+  height: 100vh;
+  background: url('e288ec8a-0bb6-4683-8cfa-8da3951788e6.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  /* align-items: center;    */
+  text-align: center;
+}
+
+.hero-text h2 {
+  color: white;
+  font-weight: 400;
+  font-size: 1.8rem;
+  /* margin-bottom: 0.5rem; */
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+}
+
+.hero-text h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 7rem;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+}
+
+.container {
+    /* width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh; */
+    /* padding-top: 80px; */
+    padding-top: 20px; 
+            padding-left: 40px;
+            padding-right: 40px;
+            text-align: center; /* Center aligning content in the container */
+            position: relative;
+            z-index: 1;
+}
+
+.header {
+    text-align: center;
+    color: #35A29F;
+}
+
+.header h2 {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    /* margin-bottom: 5vh; */
+}
+
+.header h1 {
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
+    font-weight: 500;
+    max-width: 800px;
+}
+
+.likert-scale {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10vh;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/* Radio buttons styling */
+.radio-input {
+    appearance: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.radio-input:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Specific radio button styles */
+.radio-input.large-left {
+    width: 100px;
+    height: 100px;
+    background-color: #610DD9;
+}
+
+.radio-input.medium-left {
+    width: 80px;
+    height: 80px;
+    background-color: #8133F1;
+}
+
+.radio-input.small-left {
+    width: 60px;
+    height: 60px;
+    background-color: #AC73FF;
+}
+
+.radio-input.neutral {
+    width: 50px;
+    height: 50px;
+    background-color: #DAC0FF;
+}
+
+.radio-input.small-right {
+    width: 60px;
+    height: 60px;
+    background-color: #7391FF;
+}
+
+.radio-input.medium-right {
+    width: 80px;
+    height: 80px;
+    background-color: #2741D8;
+}
+
+.radio-input.large-right {
+    width: 100px;
+    height: 100px;
+    background-color: #0A25BE;
+}
+
+/* Labels */
+.labels {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #5EEAD4;
+    font-size: clamp(0.8rem, 1.5vw, 1.2rem);
+    font-weight: 500;
+    /* margin-top: 15px; */
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+
+    .radio-input.large-left,
+    .radio-input.large-right {
+        width: 70px;
+        height: 70px;
+    }
+
+    .radio-input.medium-left,
+    .radio-input.medium-right {
+        width: 60px;
+        height: 60px;
+    }
+
+    .radio-input.small-left,
+    .radio-input.small-right {
+        width: 50px;
+        height: 50px;
+    }
+
+    .radio-input.neutral {
+        width: 40px;
+        height: 40px;
+    }
+
+    .labels {
+        font-size: 0.7rem;
+    }
+}
+
+.scroll-down {
+
+    position: fixed;           /* Tetap di tempat saat scroll */
+  bottom: 40px;              /* Jarak dari bawah layar */
+  left: 50%;                 /* Pusat horizontal */
+  transform: translateX(-50%); /* Geser ke kiri setengah lebar tombol agar tepat di tengah */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #8e44ec; /* ungu cerah */
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* .scroll-down:hover {
+  background-color: #7a35d1;
+  transform: scale(1.05);
+} */
+
+.arrow {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  padding: 20px 40px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: fixed;
+  top: 0;
+z-index: 1000;        /* Ensures the navbar stays on top of all other content */
+
+}
+
+.logo {
+  height: 30px;
+}
+
+.navbar-logo {
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+}
