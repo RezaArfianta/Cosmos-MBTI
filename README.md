@@ -64,12 +64,14 @@ Berikut adalah cara kedua untuk meluncurkan aplikasi menggunakan Docker.
    ```
 
 2. **Jalankan Backend API**
+
    API akan berjalan di: http://localhost:5000
    ```
    docker run -d --name mbti-web -p 5000:8000 hanifimaduddin/mbti_api
    ```
 
 4. **Jalankan Frontend Web**
+
    Aplikasi web akan berjalan di: http://localhost:7070
    ```
    docker run -d --name mbti-web -p 7070:8080 hanifimaduddin/mbti_web
