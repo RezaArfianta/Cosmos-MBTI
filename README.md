@@ -12,10 +12,6 @@ Anggota:
 DS-47-03
 Link Figma design UI: https://www.figma.com/design/FD0Aqj6XoqjjgRpqKQjIay/PASD---Koding-Muda-Nusantara?node-id=0-1&t=NKSFJ0Wiq5VsMoE1-1
 
-Link Docker Web: https://hub.docker.com/r/hanifimaduddin/mbti_web
-
-Link Dokcer API: https://hub.docker.com/r/hanifimaduddin/mbti-api
-
 ## Instruksi untuk run Cosmos MBTI
 Instruksi ini akan membantu Anda menyiapkan salinan proyek dan menjalankannya di mesin lokal Anda untuk tujuan pengembangan dan pengujian.
 
@@ -59,3 +55,22 @@ Untuk meluncurkan aplikasi, Anda perlu menjalankan server API dan server web sec
     ```
     http://localhost:8080/
     ```
+
+Berikut adalah cara kedua untuk meluncurkan aplikasi menggunakan Docker.
+1. **Tarik Gambar dari Docker**
+   ```
+   docker pull hanifimaduddin/mbti_web
+   docker pull hanifimaduddin/mbti-api
+   ```
+
+2. **Jalankan Backend API**
+   API akan berjalan di: http://localhost:5000
+   ```
+   docker run -d --name mbti-web -p 5000:8000 hanifimaduddin/mbti_api
+   ```
+
+4. **Jalankan Frontend Web**
+   Aplikasi web akan berjalan di: http://localhost:7070
+   ```
+   docker run -d --name mbti-web -p 7070:8080 hanifimaduddin/mbti_web
+   ```
