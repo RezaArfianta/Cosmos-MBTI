@@ -10,6 +10,9 @@ Anggota:
 5. Rafi Arkan Fachreza Arfianta (103052300074)
 
 DS-47-03
+Link Figma design UI: https://www.figma.com/design/FD0Aqj6XoqjjgRpqKQjIay/PASD---Koding-Muda-Nusantara?node-id=0-1&t=NKSFJ0Wiq5VsMoE1-1
+Link Docker Web: https://hub.docker.com/r/hanifimaduddin/mbti_web
+Link Dokcer API: https://hub.docker.com/r/hanifimaduddin/mbti-api
 
 ## Instruksi untuk run Cosmos MBTI
 Instruksi ini akan membantu Anda menyiapkan salinan proyek dan menjalankannya di mesin lokal Anda untuk tujuan pengembangan dan pengujian.
